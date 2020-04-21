@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="287" height="199" viewBox="0 0 287 199">
+  <g id="Group_17" data-name="Group 17" transform="translate(-771 -580.915)">
+    <text id="PSYCHIATRY" transform="translate(878 593.915)" fill="#201d38" font-size="13" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">PSYCHIATRY</tspan></text>
+    <text id="PSYCHOLOGY" transform="translate(771 776.915)" fill="#201d38" font-size="13" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">PSYCHOLOGY</tspan></text>
+    <text id="TECHNOLOGY" transform="translate(962 776.915)" fill="#201d38" font-size="13" font-family="Montserrat-SemiBold, Montserrat" font-weight="600"><tspan x="0" y="0">TECHNOLOGY</tspan></text>
+    <text id="COMMUNITY" transform="translate(876 703.915)" fill="#ff6584" font-size="13" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">COMMUNITY</tspan></text>
+    <g id="Polygon_1" data-name="Polygon 1" transform="translate(827 597.915)" fill="none">
+      <path d="M95,0l95,164H0Z" stroke="none"/>
+      <path d="M 95 5.985122680664062 L 5.204788208007812 161 L 184.7952117919922 161 L 95 5.985122680664062 M 95 1.52587890625e-05 L 190 164 L 0 164 L 95 1.52587890625e-05 Z" stroke="none" fill="#201d38"/>
+    </g>
+  </g>
+</svg>

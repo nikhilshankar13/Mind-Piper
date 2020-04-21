@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Mind Piper</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<!-- Navigation -->
+<nav class= "navbar navbar-expand-lg navbar-light  sticky-top pt-3">		  			
+<div class="container">
+	<a class="navbar-brand" href="index.html"><img src="img/Logo Nav.png"></a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarResponsive">
+		<ul class="navbar-nav ml-auto ">
+    <li class="nav-item topp ml-auto">
+        <a class="nav-link"  href="index.html"> back to home</a> </li>
+
+		</ul>
+
+	</div>
+</div>
+</nav>
+
+<br>
+<br>
+<br>
+
+
+<div class="container">
+<div class="row mx-auto">
+    <h3 class="heading1 text-center">
+        Session Booking Form
+    </h3> </div>
+    <div class="row">
+    <p class="toptext col-sm-12 text-xl-center texl-lg-center text-md-center text-sm-center text-xs-center">
+        To start the process, kindly book an appointment with us.
+         Once we receive your query, we will get back to you within 72 hours.
+    </p> 
+    </div>
+
+    <div class="col-sm-12 mx-auto">
+			<div class="card card12">
+    <div class="row">
+    <form action="/action.php" method="POST" class="mx-auto">
+        <div class="row">
+          <div class="col">
+            <label for="nameinput" class="heading1 pt-4">Your name</label>
+            <input type="text" name="name" class="form-control" id="nameinput" placeholder="Full name" required>
+          
+          </div>
+          </div>
+         
+          <div class="row pt-2">
+          <div class="col">
+            <label for="inputEmail4" class="heading1">Email</label>
+            <input type="email" name="email" class="form-control" id="inputEmail4" placeholder="email address" required>
+          </div>
+        </div>
+        <div class="row pt-2">
+            <div class="col">
+              <label for="number" class="heading1">Phone No.</label>
+              <input type="text" name="number" class="form-control" id="number" placeholder="phone number" required>
+            </div>
+          </div>
+          <div class="row pt-2">
+            <div class="col">
+                <div class="form-group">
+                    <label for="exampleFormControlSelect1"  class="heading1" >Choose your session type</label>
+                     <select class="form-control" name="session" id="exampleFormControlSelect1" required>
+                      <option>In-Person Session</option>
+                      <option>Video Session</option>
+                      <option>Telephone Session</option>
+                      <option>Couples Session</option>
+                    </select>
+                  </div>
+                  </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1"  class="heading1" >Select your counsellor</label>
+                             <select class="form-control" name="counsellor" id="exampleFormControlSelect1" required>
+                              <option>Psychologist</option>
+                              <option>Psychotherapist</option>
+                            </select>
+                          </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                      <div class="col">
+                        <div class="form-group">
+                          <label for="birthdaytime" class="heading1">Select a date and time</label> <br>
+  <input type="datetime-local"  id="birthdaytime" name="birthdaytime" required>
+                        </div>
+                      </div>
+                    </div>
+                   
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+                            <label class="form-check-label" for="exampleCheck1">Permission to use your info. to schedule appointments</label>
+                          </div>
+
+                          <div class="form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck2" required>
+                            <label class="form-check-label" for="exampleCheck2"> I have read the<a href="#"> cancellation and refund policiy</a></label>
+                          </div>
+                      
+
+
+<div class="col pt-4">
+    
+    <button class="button betn" type="submit">Submit</button><br><br>
+</div>
+        </div>
+      </form>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container bgg2">
+  <div class="row">
+      
+        <div class="col-sm pt-4 pl-4 my-auto d-block">
+          <img src="/img/footerlogo.svg" class="col-xl-10">
+        </div>
+      
+      <div class="col-sm my-auto">
+    
+        <a class="footertext" href="/index.html">•Home</a> <br>
+        <a class="footertext" href="/Session-Landing.html">•Book a session</a> <br>
+        <a class="footertext" href="#">•Cancellation and Refund policy</a><br>
+        <a class="footertext" href="#">•Privacy policy</a>
+      </div>
+      <div class="col-sm">
+        <p class="footertext">
+          C-15, Sector-65, Noida - 201301
+        </p>
+        <p class="footertext">
+          Mind Piper Wellness Centre, 411,<br>
+           Gagan Vihar, New Delhi -110051
+        </p>
+        <p class="footertext">
+          AUD Centre for Incubation,<br> 
+          Innovation, & Entrepreneurship<br>
+          WS-3, Ambedkar University<br>
+          Kashmere Gate, Delhi - 110006
+        </p>
+        <p class="footertext">
+          +91-8383887084
+        </p>
+        <p class="footertext"> <a href="mailto:support@mindpiper.com">
+        support@mindpiper.in</a></p>
+      </div>
+
+
+
+       
+<!--- Jumbotron -->
+
+
+<!--- Welcome Section -->
+
+
+<!--- Three Column Section -->
+
+
+<!--- Two Column Section -->
+
+
+<!--- Fixed background -->
+
+
+<!--- Emoji Section -->
+
+  
+<!--- Meet the team -->
+
+
+<!--- Cards -->
+
+
+<!--- Two Column Section -->
+
+
+<!--- Connect -->
+
+
+<!--- Footer -->
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+<!--- Check out my courses! -->
