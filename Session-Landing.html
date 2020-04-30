@@ -10,7 +10,8 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link href="style.css" rel="stylesheet">
-    <link rel="icon" href="/img/favicon.ico" type="image/gif" sizes="16x16">
+    <link rel="icon" href="/img/favicon.ico" type="image/gif" sizes="16x16"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 <!-- Navigation -->
@@ -31,7 +32,7 @@
 </div>
 </nav>
 
-<div class="container toop pt-4 pb-4">
+<div class="container  pt-4 pb-4">
     <div class="row">
         <div class="col">
             <h2 class="text-xl-left text-lg-left text-md-center text-sm-center text-xs-center title1 pt-4">
@@ -71,7 +72,7 @@
 
     <div class="container pt-4 ">
         <div class="row pt-4 ">
-            <div class="col pt-4">
+            <div class="col pt-4 pb-4">
                 <h1 class="title1 text-center"> Let's listen to some life stories</h1>
                 <h4 class="heading2 text-center"> Testimonials</h4>
             </div>
@@ -80,12 +81,15 @@
 
     <div class="container testimonialss">
         <div class="row">
-            <div class="col-xl-6 col-lg-6 col-md-10 col-sm-12 col-xs-12 text-xl-left text-lg-left text-md-center text-sm-center text-xs-center pr-4 ">
+            <div class="col-xl-6 col-lg-6 col-md-10 col-sm-12 col-xs-12 text-xl-left text-lg-left text-md-center text-sm-center text-xs-center pr-4 "data-aos="fade-in" data-aos-delay="50"
+			data-aos-duration="1000">
                       <h2 class="heading1">Archana</h2>
-                      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                        <img src="img/headcard.svg" class="float-right" > 
+                      <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12"data-aos="fade-in" data-aos-delay="50"
+                      data-aos-duration="1000">
+                        <img src="img/headcard.svg" class="float-right"> 
                     </div>
-                      <p class=" boody">“Most people around me didn’t understand the unseen struggle I was going through.
+                      <p class=" toptext" data-aos="fade-in" data-aos-delay="50"
+                      data-aos-duration="1000">“Most people around me didn’t understand the unseen struggle I was going through.
                            Most of them were unaware of the pain I was hiding behind my smiles and posts on social media.
                             Most of them thought anxiety is normal and depression is a part of life.
                              Most of them were busy facing their own fears. But now, somehow those conversations with my therapist, 
@@ -94,12 +98,15 @@
 
                              
                     </div>
-                    <div class="col-xl-6 col-lg-6 col-md-10 col-sm-12 col-xs-12 text-xl-right text-lg-right text-md-center text-sm-center text-xs-center pl-4">
+                    <div class="col-xl-6 col-lg-6 col-md-10 col-sm-12 col-xs-12 text-xl-right text-lg-right text-md-center text-sm-center text-xs-center pl-4" data-aos="fade-in" data-aos-delay="50"
+                    data-aos-duration="1000">
                         <h2 class="heading1">Satya</h2>
-                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12" data-aos="fade-in" data-aos-delay="50"
+                        data-aos-duration="1000">
                           <img src="img/headcard2.svg" class="float-left" > 
                       </div>
-                        <p class=" boody">"At 27, crying is now only a momentary release. It doesn’t represent any prolonging feeling because there are none.
+                        <p class=" toptext" data-aos="fade-in" data-aos-delay="50"
+                        data-aos-duration="1000">"At 27, crying is now only a momentary release. It doesn’t represent any prolonging feeling because there are none.
                              Whenever I cry about anything or burst into tears, the only thing it represents is that I care. I care about sexual assaults,
                               lonely kittens, broken children, wounded women, injustice, and inequity. 
                             The only thing my tears tell me is that I care and that I have compassion. And that it is a good, good thing.”</p>
@@ -112,7 +119,7 @@
             <div class="container bgg2">
                 <div class="row">
                         
-                            <div class="col-sm pt-4 pl-4 my-auto d-block">
+                            <div class="col-sm-6 col-md-4 pt-4 pl-4 my-auto d-block">
                                 <img src="img/footerlogo.svg" class="col-xl-10">
                             </div>
                         
@@ -147,7 +154,10 @@
 
 
 
-
+                        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+                        <script>
+                          AOS.init();
+                        </script>
 
 </body>
 </html>
