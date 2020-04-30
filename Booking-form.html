@@ -10,7 +10,8 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
   <link href="style.css" rel="stylesheet">
-  <link rel="icon" href="/img/favicon.ico" type="image/gif" sizes="16x16">
+  <link rel="icon" href="/img/favicon.ico" type="image/gif" sizes="16x16"/>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
 <!-- Navigation -->
@@ -38,7 +39,7 @@
 
 <div class="container">
 <div class="row mx-auto">
-    <h3 class="heading1 text-center">
+    <h3 class="heading1 mx-auto">
         Session Booking Form
     </h3> </div>
     <div class="row">
@@ -49,7 +50,7 @@
     </div>
 
     <div class="col-sm-12 mx-auto">
-			<div class="card card12">
+			
     <div class="row">
     <form action="/action.php" method="POST" class="mx-auto">
         <div class="row">
@@ -124,7 +125,7 @@
 </div>
         </div>
       </form>
-</div>
+
 </div>
 </div>
 </div>
@@ -132,7 +133,7 @@
 <div class="container bgg2">
   <div class="row">
       
-        <div class="col-sm pt-4 pl-4 my-auto d-block">
+        <div class="col-sm-6 col-md-4 pt-4 pl-4 my-auto d-block">
           <img src="/img/footerlogo.svg" class="col-xl-10">
         </div>
       
@@ -167,9 +168,10 @@
 
 
        
-
-
-
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
 
 
 </body>
