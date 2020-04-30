@@ -11,6 +11,9 @@ body{
   
 }
 
+.toop{
+  background-color: #201D38;
+}
 .topp{
   font-weight: 600;
   color: #00A7B9;
@@ -23,7 +26,7 @@ body{
 
 .text1{
   font-weight: 600;
-  color:#201D38  ;
+  color: #EBEDF8  ;
   font-size: 32px;
   line-height: 1.3;
 }
@@ -52,7 +55,7 @@ body{
 
   background-image: url(img/Scene-Plants3.png);
   background-repeat: no-repeat;
-  border-radius: 18px;
+  border-radius: 32px;
 }
 
 .boody1{
@@ -135,6 +138,7 @@ background-position: center;
   background-color: #EBEDF8;
   box-shadow: 0 8px 20px 0 rgba(216, 218, 229, 0.4), 0 8px 20px 0 rgba(190, 200, 255, 0.3);
   border: #ffffff
+  
 }
 
 
@@ -191,3 +195,32 @@ figure {
 [class*="col-"] {
     padding: 1rem;
 }
+
+
+
+
+
+/*
+Extra small (xs) devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap
+
+Small (sm) devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+Medium (md) devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+Large (lg) devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+Extra (xl) large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+*/
+
+
+
+
+
+
+
+
