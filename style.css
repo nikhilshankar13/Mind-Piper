@@ -108,7 +108,7 @@ body{
 }
 
 .testimonialss{
-  background-image: url(/img/Logo.svg);
+  background-image: url(img/Logo.svg);
   background-repeat: no-repeat;
 background-position: center;
 
@@ -117,7 +117,7 @@ background-position: center;
 }
 
 .bgg2{
-  background-image: url(/img/Scene-Plants3.png);
+  background-image: url(img/Scene-Plants3.png);
   background-repeat: no-repeat;
   border-radius: 18px 18px 1px 1px;
 }
@@ -133,7 +133,7 @@ background-position: center;
 .card12{
   border-radius: 32px;
   background-color: #EBEDF8;
-  box-shadow: 0 4px 8px 0 rgba(216, 218, 229, 0.25), 0 6px 20px 0 rgba(190, 200, 255, 0.19);
+  box-shadow: 0 8px 20px 0 rgba(216, 218, 229, 0.4), 0 8px 20px 0 rgba(190, 200, 255, 0.3);
   border: #ffffff
 }
 
@@ -191,32 +191,3 @@ figure {
 [class*="col-"] {
     padding: 1rem;
 }
-
-
-
-
-
-/*
-Extra small (xs) devices (portrait phones, less than 576px)
-No media query since this is the default in Bootstrap
-
-Small (sm) devices (landscape phones, 576px and up)
-@media (min-width: 576px) { ... }
-
-Medium (md) devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-Large (lg) devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-Extra (xl) large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-*/
-
-
-
-
-
-
-
-
